@@ -1,12 +1,6 @@
 import * as React from "react";
 
-function Opiskelija() {
-  const opiskelija = {
-    nimi: "Matti Meikäläinen",
-    ika: 16,
-    kurssi: "Reactin perusteet",
-  };
-
+function Opiskelija({ opiskelija }) {
   return (
     <div>
       <p>Nimi: {opiskelija.nimi}</p>
