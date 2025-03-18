@@ -3,6 +3,7 @@ import Hello from "./Hello.jsx";
 import Opiskelija from "./OpiskelijaTiedot.jsx";
 import Infolista from "./Infolista.jsx";
 import Linkkilista from "./Linkkilista.jsx";
+import Kayttajakortti from "./Kayttajakortti.jsx";
 
 function App() {
   const opiskelija = {
@@ -21,6 +22,7 @@ function App() {
       <Opiskelija opiskelija={opiskelija} />
       <Infolista taulukko={tiedot} />
       <Linkkilista lista={linkit} />
+      <Kayttajakortti nimi="Daren" lista={["React", "Javascript", "CSS"]} />
     </div>
   );
 }
